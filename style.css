@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Pixel";
+    src: url("font.ttf");
+}
+
+@font-face {
+    font-family: "Pixel Paragraph";
+    src: url("font-p.ttf");
+}
+
+/*------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pixel", sans-serif;
+    font-weight: normal;
+    
+    text-align: center;
+}
+
+article p {
+    font-family: "Pixel Paragraph";
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+img {
+    image-rendering: pixelated;
+    display: block;
+    
+    width: 200px;
+    margin: 30px auto;
+}
+
+p {
+    margin: 20px;
+}
+
+button {
+    padding: 5px;
+    border: 2px solid black;
+    
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+article {
+    border-top: 1px solid black;
+    
+    width: 90%;
+    margin: 20px auto;
+}
